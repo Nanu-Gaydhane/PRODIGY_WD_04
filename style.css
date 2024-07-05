@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.about, .intro {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.1);
+}
+
+.name-highlight {
+    color: red;
+}
+
+.contact-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: darkred;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.about h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 0.8em;
+    line-height: 1;
+    margin-bottom: 20px;
+}
